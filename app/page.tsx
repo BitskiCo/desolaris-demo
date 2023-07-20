@@ -11,10 +11,10 @@ export default function Home() {
         </div>
         <div className="h-[70vh]" />
         <div className="flex gap-[1px]">
-          <button className="btn btn-primary btn-nobs relative">
+          <a href="/api/auth/login" className="btn btn-primary btn-nobs relative">
             Claim Free Deck
-          </button>
-          <button className="btn">Login</button>
+          </a>
+          <a href="/api/auth/login" className="btn">Login</a>
           <button className="btn">About</button>
           <button className="btn btn-sm text-2xl"><i className="icon icon-twitter -m-1" /></button>
         </div>
