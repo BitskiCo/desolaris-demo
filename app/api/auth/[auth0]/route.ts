@@ -4,9 +4,6 @@ import {
   handleCallback,
 } from '@auth0/nextjs-auth0/edge';
 
-export const runtime =
-  process.env.NODE_ENV === 'production' ? 'edge' : 'nodejs';
-
 const afterCallback: AfterCallbackAppRoute = async (_req, session) => {
   const userId = session.user.sub;
 
