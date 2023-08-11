@@ -1,0 +1,1834 @@
+[
+  {
+    "image": "common_plasma_battery.png",
+    "type": "GEAR",
+    "name": "Plasma Battery",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP ENGINE"],
+    "category": "SHIP",
+    "bonuses": {
+      "fuelCapacity": 25
+    }
+  },
+  {
+    "image": "common_data_journal.png",
+    "type": "GEAR",
+    "name": "Data Journal",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_language_primer.png",
+    "type": "GEAR",
+    "name": "Language Primer",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_solar_wind_sail.png",
+    "type": "GEAR",
+    "name": "Solar Wind Sail",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP ENGINE"],
+    "category": "SHIP",
+    "bonuses": {
+      "fuelCapacity": 25
+    }
+  },
+  {
+    "image": "common_multitool.png",
+    "type": "GEAR",
+    "name": "Multitool",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "engineering": 1
+    }
+  },
+  {
+    "image": "uncommon_engineering_toolkit.png",
+    "type": "GEAR",
+    "name": "Engineering Toolkit",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "engineering": 2
+    }
+  },
+  {
+    "image": "common_star_chart_map.png",
+    "type": "GEAR",
+    "name": "Star Chart Map",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "uncommon_void_resonator.png",
+    "type": "GEAR",
+    "name": "Void Resonator",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "attunement": 2
+    }
+  },
+  {
+    "image": "rare_neural_stimulant.png",
+    "type": "GEAR",
+    "name": "Neural Stimulant",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "biohacking": 1,
+      "engineering": 1,
+      "history": 1,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_starshine_lens.png",
+    "type": "GEAR",
+    "name": "Starshine Lens",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP ACCESSORY"],
+    "category": "SHIP",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "common_sonic_emitter.png",
+    "type": "GEAR",
+    "name": "Sonic Emitter",
+    "rarity": "COMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 1
+    }
+  },
+  {
+    "image": "common_void_residue_detector.png",
+    "type": "GEAR",
+    "name": "Void Residue Detector",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "attunement": 1
+    }
+  },
+  {
+    "image": "common_etiquette_guide.png",
+    "type": "GEAR",
+    "name": "Etiquette Guide",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_survivalists_leather_vest.png",
+    "type": "GEAR",
+    "name": "Survivalist's Leather Vest",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25
+    }
+  },
+  {
+    "image": "common_survivalists_exploration_boots.png",
+    "type": "GEAR",
+    "name": "Survivalist’s Exploration Boots",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25
+    }
+  },
+  {
+    "image": "common_tactical_combat_jacket.png",
+    "type": "GEAR",
+    "name": "Tactical Combat Jacket",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_survivalists_armored_pants.png",
+    "type": "GEAR",
+    "name": "Survivalist's Armored Pants",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_mercenarys_lightweight_tactical_helmet.png",
+    "type": "GEAR",
+    "name": "Mercenary’s Lightweight Tactical Helmet",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50
+    }
+  },
+  {
+    "image": "uncommon_mercenarys_elbow_pads.png",
+    "type": "GEAR",
+    "name": "Mercenary's Elbow Pads",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50
+    }
+  },
+  {
+    "image": "uncommon_tech_specialists_arm_braces.png",
+    "type": "GEAR",
+    "name": "Tech Specialist's Arm Braces",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "common_tactical_utility_belt.png",
+    "type": "GEAR",
+    "name": "Tactical Utility Belt",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "carryCapacity": 2
+    }
+  },
+  {
+    "image": "common_survivalists_goggles.png",
+    "type": "GEAR",
+    "name": "Survivalist’s Goggles",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25
+    }
+  },
+  {
+    "image": "common_survivalists_gloves.png",
+    "type": "GEAR",
+    "name": "Survivalist's Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25
+    }
+  },
+  {
+    "image": "common_mnemonic_codex_band.png",
+    "type": "GEAR",
+    "name": "Mnemonic Codex Band",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "uncommon_energy_resonance_gloves.png",
+    "type": "GEAR",
+    "name": "Energy Resonance Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2
+    }
+  },
+  {
+    "image": "common_plasma_pistol.png",
+    "type": "GEAR",
+    "name": "Plasma Pistol",
+    "rarity": "COMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 1
+    }
+  },
+  {
+    "image": "common_photon_grenade.png",
+    "type": "GEAR",
+    "name": "Photon Grenade",
+    "rarity": "COMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 1
+    }
+  },
+  {
+    "image": "common_kinetic_rifle.png",
+    "type": "GEAR",
+    "name": "Kinetic Rifle",
+    "rarity": "COMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 1
+    }
+  },
+  {
+    "image": "uncommon_diplomats_sash.png",
+    "type": "GEAR",
+    "name": "Diplomat's Sash",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 2
+    }
+  },
+  {
+    "image": "common_aerial_pilots_jacket.png",
+    "type": "GEAR",
+    "name": "Aerial Pilot's Jacket",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "legendary_aetherweave_wrist_wraps.png",
+    "type": "GEAR",
+    "name": "Aetherweave Wrist Wraps",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 5
+    }
+  },
+  {
+    "image": "common_mechanics_overalls.png",
+    "type": "GEAR",
+    "name": "Mechanic's Overalls",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 2
+    }
+  },
+  {
+    "image": "common_historians_spectacles.png",
+    "type": "GEAR",
+    "name": "Historian's Spectacles",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_genetic_codex.png",
+    "type": "GEAR",
+    "name": "Genetic Codex",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "biohacking": 1
+    }
+  },
+  {
+    "image": "rare_surgical_optics_goggles.png",
+    "type": "GEAR",
+    "name": "Surgical Optics Goggles",
+    "rarity": "RARE",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 3
+    }
+  },
+  {
+    "image": "uncommon_bionic_data_gloves.png",
+    "type": "GEAR",
+    "name": "Bionic Data Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "starflight": 1
+    }
+  },
+  {
+    "image": "common_smugglers_sunglasses.png",
+    "type": "GEAR",
+    "name": "Smuggler’s Sunglasses",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 1
+    }
+  },
+  {
+    "image": "common_flak_cannons.png",
+    "type": "GEAR",
+    "name": "Flak Cannons",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 1
+    }
+  },
+  {
+    "image": "common_missile_launcher.png",
+    "type": "GEAR",
+    "name": "Missile Launcher",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 1
+    }
+  },
+  {
+    "image": "common_railgun_turrets.png",
+    "type": "GEAR",
+    "name": "Railgun Turrets",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 1
+    }
+  },
+  {
+    "image": "common_combat_training_manual.png",
+    "type": "GEAR",
+    "name": "Combat Training Manual",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_aerial_pilots_targeting_visor.png",
+    "type": "GEAR",
+    "name": "Aerial Pilot’s Targeting Visor",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "common_modular_backpack.png",
+    "type": "GEAR",
+    "name": "Modular Backpack",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "carryCapacity": 2
+    }
+  },
+  {
+    "image": "common_cargo_expansion_pods.png",
+    "type": "GEAR",
+    "name": "Cargo Expansion Pods",
+    "rarity": "COMMON",
+    "equipLocation": ["SHIP CARGO"],
+    "category": "SHIP",
+    "bonuses": {
+      "cargoCapacity": 25
+    }
+  },
+  {
+    "image": "rare_enhanced_engineering_toolkit.png",
+    "type": "GEAR",
+    "name": "Enhanced Engineering Toolkit",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "engineering": 3
+    }
+  },
+  {
+    "image": "uncommon_plasma_welding_torch.png",
+    "type": "GEAR",
+    "name": "Plasma Welding Torch",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "engineering": 1,
+      "weapons": 1
+    }
+  },
+  {
+    "image": "uncommon_tech_specialists_system_analyzer_vizor.png",
+    "type": "GEAR",
+    "name": "Tech Specialist’s System Analyzer Vizor",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 2
+    }
+  },
+  {
+    "image": "uncommon_tech_specialists_jumpsuit.png",
+    "type": "GEAR",
+    "name": "Tech Specialist’s Jumpsuit",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 2,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_neurointerface_gloves.png",
+    "type": "GEAR",
+    "name": "Neuro-Interface Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 1,
+      "starflight": 1
+    }
+  },
+  {
+    "image": "uncommon_neural_linkage_vestment.png",
+    "type": "GEAR",
+    "name": "Neural Linkage Vestment",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "engineering": 1
+    }
+  },
+  {
+    "image": "uncommon_biofeedback_neural_implant.png",
+    "type": "GEAR",
+    "name": "Biofeedback Neural Implant",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "combat": 1
+    }
+  },
+  {
+    "image": "uncommon_regenerative_plant_extracts.png",
+    "type": "GEAR",
+    "name": "Regenerative Plant Extracts",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "biohacking": 2
+    }
+  },
+  {
+    "image": "common_smugglers_camo_backpack.png",
+    "type": "GEAR",
+    "name": "Smuggler’s Camo Backpack",
+    "rarity": "COMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 1
+    }
+  },
+  {
+    "image": "common_aura_harmonizer_bracelet.png",
+    "type": "GEAR",
+    "name": "Aura Harmonizer Bracelet",
+    "rarity": "COMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1
+    }
+  },
+  {
+    "image": "uncommon_ancient_galactic_codex.png",
+    "type": "GEAR",
+    "name": "Ancient Galactic Codex",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "history": 2
+    }
+  },
+  {
+    "image": "uncommon_epochal_engraved_greaves.png",
+    "type": "GEAR",
+    "name": "Epochal Engraved Greaves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "history": 1
+    }
+  },
+  {
+    "image": "uncommon_archivists_weathered_robes.png",
+    "type": "GEAR",
+    "name": "Archivist's Weathered Robes",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 2
+    }
+  },
+  {
+    "image": "uncommon_empathy_enhancer_implant.png",
+    "type": "GEAR",
+    "name": "Empathy Enhancer Implant",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "rare_interspecies_gesture_interpreter.png",
+    "type": "GEAR",
+    "name": "Interspecies Gesture Interpreter",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "sociolinguistics": 3
+    }
+  },
+  {
+    "image": "uncommon_harmony_weave_kimono.png",
+    "type": "GEAR",
+    "name": "Harmony Weave Kimono",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "uncommon_nanoweave_combat_vest.png",
+    "type": "GEAR",
+    "name": "Nanoweave Combat Vest",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_biofeedback_tactical_visor.png",
+    "type": "GEAR",
+    "name": "Biofeedback Tactical Visor",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "combat": 2
+    }
+  },
+  {
+    "image": "uncommon_spec_ops_sounddampening_boots.png",
+    "type": "GEAR",
+    "name": "Spec Ops Sound-Dampening Boots",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25,
+      "stealth": 1
+    }
+  },
+  {
+    "image": "uncommon_eclipse_projector.png",
+    "type": "GEAR",
+    "name": "Eclipse Projector",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "stealth": 2
+    }
+  },
+  {
+    "image": "rare_quantum_lockpick.png",
+    "type": "GEAR",
+    "name": "Quantum Lockpick",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "stealth": 3
+    }
+  },
+  {
+    "image": "uncommon_lockpick_set.png",
+    "type": "GEAR",
+    "name": "Lockpick Set",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "stealth": 2
+    }
+  },
+  {
+    "image": "rare_nightskimmer_active_camo_suit.png",
+    "type": "GEAR",
+    "name": "Nightskimmer Active Camo Suit",
+    "rarity": "RARE",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50,
+      "stealth": 4
+    }
+  },
+  {
+    "image": "uncommon_silent_crossbow.png",
+    "type": "GEAR",
+    "name": "Silent Crossbow",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "stealth": 1,
+      "weapons": 1
+    }
+  },
+  {
+    "image": "uncommon_aetheric_synapse_enhancer.png",
+    "type": "GEAR",
+    "name": "Aetheric Synapse Enhancer",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "biohacking": 1
+    }
+  },
+  {
+    "image": "uncommon_energy_resonance_visor.png",
+    "type": "GEAR",
+    "name": "Energy Resonance Visor",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_ethereal_robes.png",
+    "type": "GEAR",
+    "name": "Ethereal Robes",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "uncommon_bioanalysts_glove.png",
+    "type": "GEAR",
+    "name": "Bio-Analyst’s Glove",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_astronavigator_suit.png",
+    "type": "GEAR",
+    "name": "Astro-Navigator Suit",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25,
+      "starflight": 2
+    }
+  },
+  {
+    "image": "uncommon_quantum_distortion_scanner.png",
+    "type": "GEAR",
+    "name": "Quantum Distortion Scanner",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP ACCESSORY"],
+    "category": "SHIP",
+    "bonuses": {
+      "starflight": 2
+    }
+  },
+  {
+    "image": "uncommon_star_chart_navigator.png",
+    "type": "GEAR",
+    "name": "Star Chart Navigator",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP ACCESSORY"],
+    "category": "SHIP",
+    "bonuses": {
+      "starflight": 2
+    }
+  },
+  {
+    "image": "uncommon_nanite_scattergun.png",
+    "type": "GEAR",
+    "name": "Nanite Scattergun",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 2
+    }
+  },
+  {
+    "image": "uncommon_particle_beam_rifle.png",
+    "type": "GEAR",
+    "name": "Particle Beam Rifle",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 2
+    }
+  },
+  {
+    "image": "uncommon_sonic_disruptor.png",
+    "type": "GEAR",
+    "name": "Sonic Disruptor",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 2
+    }
+  },
+  {
+    "image": "uncommon_photon_grenades.png",
+    "type": "GEAR",
+    "name": "Photon Grenades",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "weapons": 2
+    }
+  },
+  {
+    "image": "uncommon_plasma_pulse_blast.png",
+    "type": "GEAR",
+    "name": "Plasma Pulse Blast",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 2
+    }
+  },
+  {
+    "image": "uncommon_electromagnetic_disruptor_array.png",
+    "type": "GEAR",
+    "name": "Electromagnetic Disruptor Array",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 2
+    }
+  },
+  {
+    "image": "uncommon_void_seeker_missiles.png",
+    "type": "GEAR",
+    "name": "Void Seeker Missiles",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 2
+    }
+  },
+  {
+    "image": "uncommon_radiation_shielding_array.png",
+    "type": "GEAR",
+    "name": "Radiation Shielding Array",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP HULL"],
+    "category": "SHIP",
+    "bonuses": {
+      "hullIntegrity": 50
+    }
+  },
+  {
+    "image": "uncommon_quantum_condenser.png",
+    "type": "GEAR",
+    "name": "Quantum Condenser",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP ENGINE"],
+    "category": "SHIP",
+    "bonuses": {
+      "fuelCapacity": 50
+    }
+  },
+  {
+    "image": "rare_quantum_torpedo_launcher.png",
+    "type": "GEAR",
+    "name": "Quantum Torpedo Launcher",
+    "rarity": "RARE",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 3
+    }
+  },
+  {
+    "image": "rare_astral_ion_cannon.png",
+    "type": "GEAR",
+    "name": "Astral Ion Cannon",
+    "rarity": "RARE",
+    "equipLocation": ["SHIP WEAPONS"],
+    "category": "SHIP",
+    "bonuses": {
+      "shipWeapons": 3
+    }
+  },
+  {
+    "image": "uncommon_hyperfuel_reservoir.png",
+    "type": "GEAR",
+    "name": "Hyperfuel Reservoir",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP ENGINE"],
+    "category": "SHIP",
+    "bonuses": {
+      "fuelCapacity": 50
+    }
+  },
+  {
+    "image": "uncommon_void_energy_containment_units.png",
+    "type": "GEAR",
+    "name": "Void Energy Containment Units",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP CARGO"],
+    "category": "SHIP",
+    "bonuses": {
+      "cargoCapacity": 50
+    }
+  },
+  {
+    "image": "uncommon_stellar_graviton_crates.png",
+    "type": "GEAR",
+    "name": "Stellar Graviton Crates",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["SHIP CARGO"],
+    "category": "SHIP",
+    "bonuses": {
+      "cargoCapacity": 50
+    }
+  },
+  {
+    "image": "uncommon_nanofiber_satchel.png",
+    "type": "GEAR",
+    "name": "Nanofiber Satchel",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "carryCapacity": 4
+    }
+  },
+  {
+    "image": "rare_quantum_matrix_interface.png",
+    "type": "GEAR",
+    "name": "Quantum Matrix Interface",
+    "rarity": "RARE",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "engineering": 2
+    }
+  },
+  {
+    "image": "rare_temporal_anomaly_archive.png",
+    "type": "GEAR",
+    "name": "Temporal Anomaly Archive",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "history": 2,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "rare_temporal_phase_blade.png",
+    "type": "GEAR",
+    "name": "Temporal Phase Blade",
+    "rarity": "RARE",
+    "equipLocation": ["WEAPON"],
+    "category": "WEAPON",
+    "bonuses": {
+      "stealth": 1,
+      "weapons": 2
+    }
+  },
+  {
+    "image": "rare_stellar_shroud_armored_chestplate.png",
+    "type": "GEAR",
+    "name": "Stellar Shroud Armored Chestplate",
+    "rarity": "RARE",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "health": 50,
+      "stealth": 1
+    }
+  },
+  {
+    "image": "legendary_voidstrike_reinforced_bracers.png",
+    "type": "GEAR",
+    "name": "Voidstrike Reinforced Bracers",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2,
+      "combat": 2,
+      "health": 25
+    }
+  },
+  {
+    "image": "rare_celestial_biodata_analyzer.png",
+    "type": "GEAR",
+    "name": "Celestial Bio-Data Analyzer",
+    "rarity": "RARE",
+    "equipLocation": ["ACCESSORY"],
+    "category": "ACCESSORY",
+    "bonuses": {
+      "biohacking": 2,
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_mechanics_goggles.png",
+    "type": "GEAR",
+    "name": "Mechanic’s Goggles",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 1
+    }
+  },
+  {
+    "image": "common_mechanics_gloves.png",
+    "type": "GEAR",
+    "name": "Mechanic’s Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 1
+    }
+  },
+  {
+    "image": "common_mechanics_boots.png",
+    "type": "GEAR",
+    "name": "Mechanic’s Boots",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 1
+    }
+  },
+  {
+    "image": "common_historians_vest.png",
+    "type": "GEAR",
+    "name": "Historian’s Vest",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_historians_gloves.png",
+    "type": "GEAR",
+    "name": "Historian’s Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_historians_shoes.png",
+    "type": "GEAR",
+    "name": "Historian’s Shoes",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_historians_trousers.png",
+    "type": "GEAR",
+    "name": "Historian’s Trousers",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 1
+    }
+  },
+  {
+    "image": "common_medics_jumpsuit.png",
+    "type": "GEAR",
+    "name": "Medic’s Jumpsuit",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 2
+    }
+  },
+  {
+    "image": "common_medics_headset.png",
+    "type": "GEAR",
+    "name": "Medic’s Headset",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1
+    }
+  },
+  {
+    "image": "common_medics_gloves.png",
+    "type": "GEAR",
+    "name": "Medic’s Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1
+    }
+  },
+  {
+    "image": "common_medics_wrist_scanner.png",
+    "type": "GEAR",
+    "name": "Medic’s Wrist Scanner",
+    "rarity": "COMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1
+    }
+  },
+  {
+    "image": "uncommon_diplomats_dress_pants.png",
+    "type": "GEAR",
+    "name": "Diplomat’s Dress Pants",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 2
+    }
+  },
+  {
+    "image": "uncommon_diplomats_gloves.png",
+    "type": "GEAR",
+    "name": "Diplomat’s Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 2
+    }
+  },
+  {
+    "image": "uncommon_diplomats_dress_shoes.png",
+    "type": "GEAR",
+    "name": "Diplomat’s Dress Shoes",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 2
+    }
+  },
+  {
+    "image": "common_tactical_combat_pants.png",
+    "type": "GEAR",
+    "name": "Tactical Combat Pants",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_tactical_combat_boots.png",
+    "type": "GEAR",
+    "name": "Tactical Combat Boots",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_tactical_combat_bracers.png",
+    "type": "GEAR",
+    "name": "Tactical Combat Bracers",
+    "rarity": "COMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_tactical_combat_gloves.png",
+    "type": "GEAR",
+    "name": "Tactical Combat Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1
+    }
+  },
+  {
+    "image": "common_aerial_pilots_gloves.png",
+    "type": "GEAR",
+    "name": "Aerial Pilot’s Gloves",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "common_aerial_pilots_greaves.png",
+    "type": "GEAR",
+    "name": "Aerial Pilot’s Greaves",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "common_aerial_pilots_shoes.png",
+    "type": "GEAR",
+    "name": "Aerial Pilot’s Shoes",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 1
+    }
+  },
+  {
+    "image": "legendary_aetherweave_headband.png",
+    "type": "GEAR",
+    "name": "Aetherweave Headband",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 5
+    }
+  },
+  {
+    "image": "legendary_aetherweave_kimono.png",
+    "type": "GEAR",
+    "name": "Aetherweave Kimono",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 5
+    }
+  },
+  {
+    "image": "common_translators_jacket.png",
+    "type": "GEAR",
+    "name": "Translator’s Jacket",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_translators_pants.png",
+    "type": "GEAR",
+    "name": "Translator’s Pants",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_translators_headpiece.png",
+    "type": "GEAR",
+    "name": "Translator’s Headpiece",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_translators_armband.png",
+    "type": "GEAR",
+    "name": "Translator’s Armband",
+    "rarity": "COMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "common_translators_shoes.png",
+    "type": "GEAR",
+    "name": "Translator’s Shoes",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "sociolinguistics": 1
+    }
+  },
+  {
+    "image": "uncommon_tech_specialists_gloves.png",
+    "type": "GEAR",
+    "name": "Tech Specialist’s Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "engineering": 2
+    }
+  },
+  {
+    "image": "uncommon_archivists_headwrap.png",
+    "type": "GEAR",
+    "name": "Archivist’s Headwrap",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 2
+    }
+  },
+  {
+    "image": "uncommon_archivists_worn_sandals.png",
+    "type": "GEAR",
+    "name": "Archivist’s Worn Sandals",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "history": 2
+    }
+  },
+  {
+    "image": "uncommon_archivists_weathered_bracers.png",
+    "type": "GEAR",
+    "name": "Archivist’s Weathered Bracers",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25,
+      "history": 1
+    }
+  },
+  {
+    "image": "legendary_voidstrike_armored_chestplate.png",
+    "type": "GEAR",
+    "name": "Voidstrike Armored Chestplate",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2,
+      "combat": 1,
+      "health": 150
+    }
+  },
+  {
+    "image": "legendary_voidstrike_tactical_boots.png",
+    "type": "GEAR",
+    "name": "Voidstrike Tactical Boots",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2,
+      "combat": 2,
+      "health": 50
+    }
+  },
+  {
+    "image": "rare_stellar_shroud_tactical_helmet.png",
+    "type": "GEAR",
+    "name": "Stellar Shroud Tactical Helmet",
+    "rarity": "RARE",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "stealth": 2
+    }
+  },
+  {
+    "image": "rare_stellar_shroud_bionic_gloves.png",
+    "type": "GEAR",
+    "name": "Stellar Shroud Bionic Gloves",
+    "rarity": "RARE",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50,
+      "stealth": 2
+    }
+  },
+  {
+    "image": "rare_stellar_shroud_reinforced_greaves.png",
+    "type": "GEAR",
+    "name": "Stellar Shroud Reinforced Greaves",
+    "rarity": "RARE",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50,
+      "stealth": 1
+    }
+  },
+  {
+    "image": "legendary_voidstrike_attuned_visor.png",
+    "type": "GEAR",
+    "name": "Voidstrike Attuned Visor",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 4,
+      "combat": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "rare_nightskimmer_silent_breath_mask.png",
+    "type": "GEAR",
+    "name": "Nightskimmer Silent Breath Mask",
+    "rarity": "RARE",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 3
+    }
+  },
+  {
+    "image": "rare_nightskimmer_stealth_boots.png",
+    "type": "GEAR",
+    "name": "Nightskimmer Stealth Boots",
+    "rarity": "RARE",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 3
+    }
+  },
+  {
+    "image": "rare_nightskimmer_phaseshifting_gloves.png",
+    "type": "GEAR",
+    "name": "Nightskimmer Phase-shifting Gloves",
+    "rarity": "RARE",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 3
+    }
+  },
+  {
+    "image": "uncommon_energy_resonance_chestplate.png",
+    "type": "GEAR",
+    "name": "Energy Resonance Chestplate",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_bioanalysts_lab_coat.png",
+    "type": "GEAR",
+    "name": "Bio-Analyst’s Lab Coat",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 2
+    }
+  },
+  {
+    "image": "uncommon_bioanalysts_wristpad.png",
+    "type": "GEAR",
+    "name": "Bio-Analyst’s Wristpad",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 2
+    }
+  },
+  {
+    "image": "uncommon_bioanalysts_field_boots.png",
+    "type": "GEAR",
+    "name": "Bio-Analyst’s Field Boots",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "biohacking": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_nanoweave_reinforced_bracers.png",
+    "type": "GEAR",
+    "name": "Nanoweave Reinforced Bracers",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_nanoweave_armored_pants.png",
+    "type": "GEAR",
+    "name": "Nanoweave Armored Pants",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_nanoweave_tactical_helmet.png",
+    "type": "GEAR",
+    "name": "Nanoweave Tactical Helmet",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "combat": 1,
+      "health": 25
+    }
+  },
+  {
+    "image": "uncommon_energy_resonance_boots.png",
+    "type": "GEAR",
+    "name": "Energy Resonance Boots",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2
+    }
+  },
+  {
+    "image": "uncommon_astronavigator_hud_visor.png",
+    "type": "GEAR",
+    "name": "Astro-Navigator HUD Visor",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 2
+    }
+  },
+  {
+    "image": "uncommon_astronavigator_control_gloves.png",
+    "type": "GEAR",
+    "name": "Astro-Navigator Control Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "starflight": 2
+    }
+  },
+  {
+    "image": "uncommon_spec_ops_tactical_gloves.png",
+    "type": "GEAR",
+    "name": "Spec Ops Tactical Gloves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 2
+    }
+  },
+  {
+    "image": "uncommon_spec_ops_armored_chestplate.png",
+    "type": "GEAR",
+    "name": "Spec Ops Armored Chestplate",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25,
+      "stealth": 1
+    }
+  },
+  {
+    "image": "uncommon_spec_ops_utility_greaves.png",
+    "type": "GEAR",
+    "name": "Spec Ops Utility Greaves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 2
+    }
+  },
+  {
+    "image": "common_smugglers_utility_pants.png",
+    "type": "GEAR",
+    "name": "Smuggler’s Utility Pants",
+    "rarity": "COMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 1
+    }
+  },
+  {
+    "image": "common_smugglers_arm_cuff.png",
+    "type": "GEAR",
+    "name": "Smuggler’s Arm Cuff",
+    "rarity": "COMMON",
+    "equipLocation": ["ARMS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 1
+    }
+  },
+  {
+    "image": "common_smugglers_boots.png",
+    "type": "GEAR",
+    "name": "Smuggler’s Boots",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "stealth": 1
+    }
+  },
+  {
+    "image": "uncommon_mercenarys_armored_chestplate.png",
+    "type": "GEAR",
+    "name": "Mercenary’s Armored Chestplate",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["CHEST"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50
+    }
+  },
+  {
+    "image": "uncommon_mercenarys_reinforced_greaves.png",
+    "type": "GEAR",
+    "name": "Mercenary’s Reinforced Greaves",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50
+    }
+  },
+  {
+    "image": "uncommon_mercenarys_combat_boots.png",
+    "type": "GEAR",
+    "name": "Mercenary’s Combat Boots",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 50
+    }
+  },
+  {
+    "image": "legendary_voidstrike_armored_gloves.png",
+    "type": "GEAR",
+    "name": "Voidstrike Armored Gloves",
+    "rarity": "LEGENDARY",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 3,
+      "combat": 2,
+      "health": 50
+    }
+  },
+  {
+    "image": "common_aetheric_robes.png",
+    "type": "GEAR",
+    "name": "Aetheric Robes",
+    "rarity": "COMMON",
+    "equipLocation": ["CHEST", "LEGS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 2
+    }
+  },
+  {
+    "image": "common_aetheric_headband.png",
+    "type": "GEAR",
+    "name": "Aetheric Headband",
+    "rarity": "COMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1
+    }
+  },
+  {
+    "image": "common_aetheric_sandals.png",
+    "type": "GEAR",
+    "name": "Aetheric Sandals",
+    "rarity": "COMMON",
+    "equipLocation": ["FEET"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1
+    }
+  },
+  {
+    "image": "common_aetheric_wristwraps.png",
+    "type": "GEAR",
+    "name": "Aetheric Wristwraps",
+    "rarity": "COMMON",
+    "equipLocation": ["HANDS"],
+    "category": "ARMOR",
+    "bonuses": {
+      "attunement": 1
+    }
+  },
+  {
+    "image": "uncommon_spec_ops_helment.png",
+    "type": "GEAR",
+    "name": "Spec Ops Helment",
+    "rarity": "UNCOMMON",
+    "equipLocation": ["HEAD"],
+    "category": "ARMOR",
+    "bonuses": {
+      "health": 25,
+      "stealth": 2
+    }
+  }
+]

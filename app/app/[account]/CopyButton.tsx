@@ -8,7 +8,7 @@ export default function CopyButton({
 }: {
   copyText: string;
   className?: string;
-  children?: (string | JSX.Element)[];
+  children?: string | JSX.Element | (string | JSX.Element)[];
 }) {
   const [copied, setCopied] = useState(false);
 

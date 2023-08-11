@@ -79,7 +79,7 @@ export default function Settings({
                 ) : didReset ? (
                   <>Reset email sent</>
                 ) : (
-                  <button onClick={changePassword} className="orange">
+                  <button onClick={changePassword} className="text-orange">
                     Change
                   </button>
                 )}

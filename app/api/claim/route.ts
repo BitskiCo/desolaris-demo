@@ -1,19 +1,44 @@
-import { getSession, updateSession } from '@auth0/nextjs-auth0/edge';
+import { expect } from '@/app/util';
+import { generateDeck } from '@/lib/collectibles';
+import { getBalances } from '@/lib/data';
+import {
+  getSession,
+  updateSession,
+  withApiAuthRequired,
+} from '@auth0/nextjs-auth0/edge';
 import { NextRequest, NextResponse } from 'next/server';
 
-export const POST = async (req: NextRequest) => {
-  const session = await getSession();
+export const POST = withApiAuthRequired(async (req: NextRequest) => {
+  const session = expect(await getSession());
 
-  if (!session) {
-    return NextResponse.json(
+  const balances = await getBalances(session.user.account);
+
+  const didClaimDeck =
+    (balances && balances.length !== 0) || session.user.didClaimDeck;
+
+  let res: NextResponse;
+
+  if (didClaimDeck) {
+    res = NextResponse.json(
       {
-        error: 'No session found',
+        error: 'Deck already claimed',
       },
       { status: 401 }
     );
-  }
+  } else {
+    try {
+      const claimedDeckBalances = await generateDeck(session.user.account);
 
-  const res = NextResponse.json({});
+      res = NextResponse.json({ balances: claimedDeckBalances });
+    } catch (e) {
+      return NextResponse.json(
+        {
+          error: (e as Error).message,
+        },
+        { status: 401 }
+      );
+    }
+  }
 
   await updateSession(req, res, {
     ...session,
@@ -24,4 +49,4 @@ export const POST = async (req: NextRequest) => {
   });
 
   return res;
-};
+});
