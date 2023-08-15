@@ -86,7 +86,7 @@ export default function Settings({
               </div>
               <div>Wallet</div>
               <a
-                href="https://user.bitski.com/claim?provider=fa_NmVlMTU4YWItMDIxMC00YWE5LTkwZTEtZmJhNDJiNGQwZDcx"
+                href="https://user.bitski.com/claim?login_hint=fa_NmVlMTU4YWItMDIxMC00YWE5LTkwZTEtZmJhNDJiNGQwZDcx"
                 className="text-right"
               >
                 Claim
