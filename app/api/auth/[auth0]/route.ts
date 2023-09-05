@@ -23,11 +23,15 @@ const afterCallback: AfterCallbackAppRoute = async (_req, session) => {
     }
   );
 
-  const { account } = await accountResp.json();
+  const { accounts } = await accountResp.json();
 
-  session.user.account = account;
+  if (accounts?.length !== 0) {
+    session.user.account = accounts[0];
 
-  return session;
+    return session;
+  } else {
+    throw new Error('Error creating wallet for this account. Try again.')
+  }
 };
 
 export const GET = handleAuth({
