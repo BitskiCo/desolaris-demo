@@ -23,10 +23,10 @@ export interface Balance {
   };
 }
 
-const MUMBAI_CHAIN_ID = 80001;
 const BITSKI_APP_ID = '6ee158ab-0210-4aa9-90e1-fba42b4d0d71';
-const DESOLARIS_CONTRACT_ADDRESS = '0x867d562070b710a5410c49f332e036a0d5a215ba';
-const DESOLARIS_CONTRACT_ID = '19918707-c760-4e45-8cfe-947ec5ae6bea';
+const DESOLARIS_CHAIN_ID = 137;
+const DESOLARIS_CONTRACT_ADDRESS = '0x8a36dc9422e60e974a12d07f76c3b4497a3d0302';
+const DESOLARIS_CONTRACT_ID = '8dfcd12d-d3fc-486c-9f18-d5b69b348c9c';
 
 export const getBalances = async (account?: string): Promise<Balance[]> => {
   if (!account) {
@@ -34,7 +34,7 @@ export const getBalances = async (account?: string): Promise<Balance[]> => {
   }
 
   const response = await fetch(
-    `https://api.bitski.com/v2/balances?address=${account}&chainIds=${MUMBAI_CHAIN_ID}&contractAddresses=${DESOLARIS_CONTRACT_ADDRESS}&nfts=true`
+    `https://api.bitski.com/v2/balances?address=${account}&chainIds=${DESOLARIS_CHAIN_ID}&contractAddresses=${DESOLARIS_CONTRACT_ADDRESS}&nfts=true`
   );
   const { balances } = await response.json();
 

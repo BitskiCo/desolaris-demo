@@ -78,7 +78,7 @@ export default function CardView({
                   </CopyButton>
                 </span>
                 <span className="text-gray-400">Chain</span>
-                <span className="text-right">Mumbai</span>
+                <span className="text-right">Polygon</span>
                 <span className="text-gray-400">Contract</span>
                 <span className="text-right">
                   <CopyButton copyText={account}>
