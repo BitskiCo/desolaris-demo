@@ -24,9 +24,9 @@ export interface Balance {
 }
 
 const BITSKI_APP_ID = '6ee158ab-0210-4aa9-90e1-fba42b4d0d71';
-const DESOLARIS_CHAIN_ID = 137;
-const DESOLARIS_CONTRACT_ADDRESS = '0x8a36dc9422e60e974a12d07f76c3b4497a3d0302';
-const DESOLARIS_CONTRACT_ID = '8dfcd12d-d3fc-486c-9f18-d5b69b348c9c';
+const DESOLARIS_CHAIN_ID = 8453;
+const DESOLARIS_CONTRACT_ADDRESS = '0xd285d77255c37b5e43cabb2bcdde5e1d762e30db';
+const DESOLARIS_CONTRACT_ID = '4d316d4a-ec87-4523-919b-1dae572dab09';
 
 export const getBalances = async (account?: string): Promise<Balance[]> => {
   if (!account) {
